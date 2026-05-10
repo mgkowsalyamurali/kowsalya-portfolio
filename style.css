@@ -1,0 +1,118 @@
+html{
+  scroll-behavior:smooth;
+body{
+  background-color:black;
+  background:linear-gradient(black,darkblue);
+  color:white;
+  font-family:Arial;
+  padding:20px;
+}
+nav{
+  text-align:center;
+  background-color:#111;
+  padding:20px;
+  border-radius:10px;
+  position:sticky;
+  top:0;
+  box-shadow:0 0 10px cyan;
+}
+section{
+  scroll-margin-top:100px;
+}
+a{
+  color:white;
+  text-decoration:none;
+  margin:20px;
+  font-size:20px;
+}
+a:hover{
+  color:cyan;
+}
+h1{
+  color:cyan;
+  font-size:50px;
+  text-shadow:0 0 15px cyan;
+}
+h2{
+  color:yellow;
+  margin-top:40px;
+}
+p{
+  font-size:20px;
+  line-height:30px;
+}
+img{
+  width:200px;
+  border-radius:50px;
+  box-shadow:0 0 20px cyan;
+}
+#home{
+  text-align:center;
+}
+li{
+  font-size:20px;
+  margin:10px;
+}
+button{
+  background-color:cyan;
+  color:black;
+  padding:10px 20px;
+  border:none;
+  border-radius:10px;
+  font-size:16px;
+  display:block;
+  margin:auto;
+}
+button:hover{
+  background-color:white;
+  transform:scale(1.05);
+}
+.projects-container{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.skills-container{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  flex-wrap:wrap;
+}
+.skill-box{
+  background-color:#222;
+  padding:15px 30px;
+  border-radius:10px;
+  box-shadow:0 0 10px cyan;
+  transition:0.3s;
+}
+.skill-box:hover{
+  transform:scale(1.05)
+}
+.project-card{
+  background-color:#223;
+  paadding:20px;
+  border-radius:15px;
+  margin-top:20px;
+  width:300px;
+  text-align:center;
+  transition:0.3s;
+  box-shadow:0 0 15px cyan;
+}
+.project-card:hover{
+  transform:scale(1.05);
+}
+footer{
+  text-align:center;
+  margin-top:50px;
+  color:gray;
+  padding:30px;
+  background-color:#111;
+  border-radius:15px;
+} 
+footer h3{
+  color:cyan;
+}
+footer p{
+  color:gray;
+}
